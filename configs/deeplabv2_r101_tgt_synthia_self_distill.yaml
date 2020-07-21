@@ -4,10 +4,10 @@ MODEL:
   FREEZE_BN: False
   NUM_CLASSES: 16
 DATASETS:
-  SOURCE_TRAIN: "synthia_train"
-  TARGET_TRAIN: "cityscapes_self_distill_train"
+  SOURCE_TRAIN: "cityscapes_self_distill_train"
   TEST: "cityscapes_val"
 INPUT:
+  SOURCE_INPUT_SIZE_TRAIN: (1024, 512)
   INPUT_SIZE_TEST: (2048, 1024)
   INPUT_SCALES_TRAIN: (0.5, 1.5)
   HORIZONTAL_FLIP_PROB_TRAIN: 0.5

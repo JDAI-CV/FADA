@@ -4,10 +4,10 @@ MODEL:
   # please note that a different classifier name is defined as stated in https://github.com/jcjohnson/pytorch-vgg/issues/3
   WEIGHTS: "https://web.eecs.umich.edu/~justincj/models/vgg16-00b39a1b.pth"
 DATASETS:
-  SOURCE_TRAIN: "gta5_train"
-  TARGET_TRAIN: "cityscapes_self_distill_train"
+  SOURCE_TRAIN: "cityscapes_self_distill_train"
   TEST: "cityscapes_val"
 INPUT:
+  SOURCE_INPUT_SIZE_TRAIN: (1024, 512)
   INPUT_SIZE_TEST: (2048, 1024)
   INPUT_SCALES_TRAIN: (0.5, 1.5)
   HORIZONTAL_FLIP_PROB_TRAIN: 0.5
