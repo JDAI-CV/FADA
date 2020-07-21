@@ -1,5 +1,5 @@
 # Classes Matter: A Fine-grained Adversarial Approach to Cross-domain Semantic Segmentation (ECCV 2020)
-This is a [pytorch](http://pytorch.org/) implementation of FADA.
+This is a [pytorch](http://pytorch.org/) implementation of [FADA](https://arxiv.org/abs/2007.09222).
 ### Prerequisites
 - Python 3.6
 - Pytorch 1.2.0
@@ -87,10 +87,10 @@ Some codes are adapted from [maskrcnn-benchmark](https://github.com/facebookrese
 If you find this code useful please consider citing
 ```
 @InProceedings{Haoran_2020_ECCV,
-author = {Wang, Haoran and Shen, Tong and Zhang, Wei and Duan, Lingyu and Mei, Tao},
-title = {Classes Matter: A Fine-grained Adversarial Approach to Cross-domain Semantic Segmentation},
-booktitle = {The European Conference on Computer Vision (ECCV)},
-month = {August},
-year = {2020}
+  author = {Wang, Haoran and Shen, Tong and Zhang, Wei and Duan, Lingyu and Mei, Tao},
+  title = {Classes Matter: A Fine-grained Adversarial Approach to Cross-domain Semantic Segmentation},
+  booktitle = {The European Conference on Computer Vision (ECCV)},
+  month = {August},
+  year = {2020}
 } 
 ```
