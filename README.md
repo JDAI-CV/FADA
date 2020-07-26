@@ -67,7 +67,7 @@ The data folder should be structured as follows:
 
 
 ### Train
-Note that when generating pseudo labels for self distillation, the link to the pseudo label directory should be updated [here](https://github.com/JDAI-CV/FADA/blob/98336a61f0fde633c6d504972fd782688fb8bd3a/core/datasets/dataset_path_catalog.py#L25).
+We provide the training script using 4 Tesla P40 GPUs. Note that when generating pseudo labels for self distillation, the link to the pseudo label directory should be updated [here](https://github.com/JDAI-CV/FADA/blob/98336a61f0fde633c6d504972fd782688fb8bd3a/core/datasets/dataset_path_catalog.py#L25).
 ```
 bash train_with_sd.sh
 ```
