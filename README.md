@@ -80,6 +80,10 @@ Our pretrained model is available via [polybox](https://polybox.ethz.ch/index.ph
 
 #### Tip: For those who are interested in how performance change during the process of adversarial training, test.py also accepts directory as the input and the results will be stored in a csv file.
 
+### Visualization results
+
+![Visualization](gifs/output.gif)
+
 ### Acknowledge
 Some codes are adapted from [maskrcnn-benchmark](https://github.com/facebookresearch/maskrcnn-benchmark) and [semseg](https://github.com/hszhao/semseg). We thank them for their excellent projects.
 
