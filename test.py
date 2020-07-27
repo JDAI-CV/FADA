@@ -142,7 +142,7 @@ def test(cfg, saveres):
             pred = pred.cpu().numpy().squeeze()
             pred_max = np.max(pred, 0)
             pred = pred.argmax(0)
-            # uncomment the following line when evaluating SYNTHIA->Cityscapes
+            # uncomment the following line when visualizing SYNTHIA->Cityscapes
             # pred = transform_color(pred)
             mask = get_color_pallete(pred, "city")
             mask_filename = name[0] if len(name[0].split("/"))<2 else name[0].split("/")[1]
