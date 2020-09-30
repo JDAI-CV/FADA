@@ -1,7 +1,7 @@
 MODEL:
   NAME: "deeplab_resnet101"
   WEIGHTS: "https://download.pytorch.org/models/resnet101-5d3b4d8f.pth"
-  FREEZE_BN: False
+  FREEZE_BN: True
   NUM_CLASSES: 16
 DATASETS:
   SOURCE_TRAIN: "cityscapes_self_distill_train"
