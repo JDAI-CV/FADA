@@ -74,11 +74,14 @@ bash train_with_sd.sh
 
 ### Evaluate
 ```
-python test.py -cfg configs/deeplabv2_r101_tgt_self_distill.yaml resume g2c_tgt_self_distill_r101_model_iter018000.pth
+python test.py -cfg configs/deeplabv2_r101_tgt_self_distill.yaml resume g2c_sd.pth
 ```
-Our pretrained model is available via [polybox](https://polybox.ethz.ch/index.php/s/jzckTds5efxbn3n).
 
 #### Tip: For those who are interested in how performance change during the process of adversarial training, test.py also accepts directory as the input and the results will be stored in a csv file.
+
+### Pretrained weights
+
+Our pretrained models for Synthia -> CityScapes task(s2c) and GTA5 -> CityScapes task(g2c) are available via [Google Drive](https://drive.google.com/drive/folders/1M7mwfSX3fx4W9KUevZwdmCo4JISnfCI_).
 
 ### Visualization results
 
